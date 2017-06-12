@@ -23,8 +23,9 @@ int main() {
         char* argv[] = {"/usr/bin/env", "python", "-c", py_code, NULL};
 
         int result = execv(argv[0], argv);
+        
+        // When does it print?
         perror("execv");
-
         printf("Program %s returned %d\n", argv[0], result);
     }
 
