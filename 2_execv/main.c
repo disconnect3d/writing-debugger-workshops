@@ -25,8 +25,8 @@ int main() {
         int result = execv(argv[0], argv);
         
         // When does it print?
+        printf("execv returned %d\n", result);
         perror("execv");
-        printf("Program %s returned %d\n", argv[0], result);
     }
 
     return 0;
