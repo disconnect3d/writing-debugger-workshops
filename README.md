@@ -6,6 +6,8 @@ Below you can find a short summary for each meeting. Knowledge should be free - 
 
 The workshops have been held in polish, so some of the materials may be in polish as well.
 
+---
+
 ### First meeting 14.06.2017 17:00-20:00
 
 #### tracers
