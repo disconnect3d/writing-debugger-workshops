@@ -59,14 +59,15 @@ Source code stepping:
 
 ##### binutils: readelf, objdump
 
+Third step was looking at binutils:
+
 * looking over ELF files - `readelf -h ./binary`, `readelf -r ./binary` (relocations, so e.g. functions from shared libraries)
 * deassembling binary to asm - `objdump -d -Mintel ./binary`
 
 ##### low level
 
-We have learned a bit of x86/x86-64 assembly, mostly from slides 5-17 from [this presentation](https://docs.google.com/presentation/d/1HKuW69NFD2IFSdkdD7ul3aWriHXHDLfPOvJV0wsiwH0/edit#slide=id.g212fc02393_0_0) (this is in polish).
+After that we gained some in-depth knowledge. Topics about x86/x86-64 were covered using 5-17 slides from [this presentation](https://docs.google.com/presentation/d/1HKuW69NFD2IFSdkdD7ul3aWriHXHDLfPOvJV0wsiwH0/edit#slide=id.g212fc02393_0_0) (this is in polish):
 
-This covered topics like:
 * processor registers (also x86 vs x86-64 e.g. eax vs rax), FLAGS/EFLAGS/RFLAGS
 * asm syntax - AT&T vs Intel
 * some basic assembly instructions
