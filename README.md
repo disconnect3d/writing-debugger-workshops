@@ -8,7 +8,7 @@ The workshops have been held in polish, so some of the materials may be in polis
 
 ### First meeting 14.06.2017 17:00-20:00
 
-##### tracers
+#### tracers
 
 Firstly, tracers were described shortly:
 
@@ -20,7 +20,7 @@ Firstly, tracers were described shortly:
 
 ...see `man strace` or `man ltrace` for more.
 
-##### gdb
+#### gdb
 
 After that we dove into gdb:
 
@@ -57,14 +57,14 @@ Source code stepping:
 * `step` or `s` - steps into next code line (or into a function)
 * `next` or `n` - steps over next code line (don't step into functions)
 
-##### binutils: readelf, objdump
+#### binutils: readelf, objdump
 
 Third step was looking at binutils:
 
 * looking over ELF files - `readelf -h ./binary`, `readelf -r ./binary` (relocations, so e.g. functions from shared libraries)
 * deassembling binary to asm - `objdump -d -Mintel ./binary`
 
-##### low level
+#### low level
 
 After that we gained some in-depth knowledge. Topics about x86/x86-64 were covered using 5-17 slides from [this presentation](https://docs.google.com/presentation/d/1HKuW69NFD2IFSdkdD7ul3aWriHXHDLfPOvJV0wsiwH0/edit#slide=id.g212fc02393_0_0) (this is in polish):
 
@@ -75,7 +75,7 @@ After that we gained some in-depth knowledge. Topics about x86/x86-64 were cover
 * mechanics of calling functions, also a bit of calling conventions (see also [Agner Fog "Calling conventions"](www.agner.org/optimize/calling_conventions.pdf))
 
 
-##### coding
+#### coding
 
 All of the codes/examples can be found in `workshop1/` directory.
 
