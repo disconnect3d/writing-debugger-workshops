@@ -76,6 +76,6 @@ This covered topics like:
 
 ##### coding
 
-All of the codes/examples can be found in `worshop1/` directory.
+All of the codes/examples can be found in `workshop1/` directory.
 
 We have talked about `fork`, pipes, `execv` and `ptrace` - then started working a bit on `3_ptrace` ending up with what is in `3_ptrace` directory.
